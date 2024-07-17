@@ -33,7 +33,7 @@
 -- JOIN appointments ON appointments.patient_id = patients.id;
 
 
--- GET mia's appoitnments plus the patients first and last names
+-- GET Mia's appointnments plus the patients first and last names
 
 -- SELECT occurs_on, patients.last_name, patients.first_name FROM doctors
 -- JOIN appointments ON appointments.doctor_id = doctors.id

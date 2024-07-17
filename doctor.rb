@@ -18,8 +18,6 @@ class Doctor
       Doctor.new(doctor_hash)
     end
   end
-
-
 end
 
 # @doctor_repository.all
