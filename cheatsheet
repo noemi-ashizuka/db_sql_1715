@@ -1,0 +1,37 @@
+UPDATE NAMES
+
+UPDATE doctors SET first_name = "Mia", last_name = "O'Connel" WHERE id = 1;
+UPDATE doctors SET first_name = "Chae", last_name = "Shin" WHERE id = 2;
+UPDATE doctors SET first_name = "Kevin", last_name = "Young" WHERE id = 3;
+UPDATE doctors SET first_name = "Igor", last_name = "Zapala" WHERE id = 4;
+UPDATE doctors SET first_name = "Eri", last_name = "Yawata" WHERE id = 5;
+UPDATE doctors SET first_name = "Mint", last_name = "Vorlaruxtara" WHERE id = 6;
+UPDATE patients SET first_name = "Ryo", last_name = "Imaoka" WHERE id = 1;
+UPDATE patients SET first_name = "Ryuya", last_name = "Inagaki" WHERE id = 2;
+SELECT * FROM doctors;
+
+Recreate
+
+INSERT INTO doctors (first_name, last_name, age, specialty)
+VALUES ('Mia', "O'Connel", 45, 'Chemistry');
+
+INSERT INTO doctors (first_name, last_name, age, specialty)
+VALUES ('Chae', 'Shin', 37, 'Anesthesiologist');
+
+INSERT INTO doctors (first_name, last_name, age, specialty)
+VALUES ('Kevin', 'Young', 63, 'Psychologist');
+
+INSERT INTO doctors (first_name, last_name, age, specialty)
+VALUES ('Igor', 'Zapala', 54, 'Psychologist');
+
+INSERT INTO doctors (first_name, last_name, age, specialty)
+VALUES ('Eri', 'Yawata', 29, 'Chemistry');
+
+INSERT INTO doctors (first_name, last_name, age, specialty)
+VALUES ('Mint', 'Vorlaruxtara', 32, 'Psychologist');
+
+INSERT INTO patients (first_name, last_name, age, specialty)
+VALUES ('Ryo', 'Imaoka', 72);
+
+INSERT INTO patients (first_name, last_name, age, specialty)
+VALUES ('Ryuya', 'Inagaki', 24);
